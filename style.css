@@ -1,0 +1,100 @@
+h1, h2, h3, h4 {
+  text-align: center;
+  font-style: italic;
+  font-family: 'caveat', Times New Roman, Times, serif;
+}
+
+
+body {
+    background-color: #ffd9b3;
+    
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 175px;
+    border: red 1px solid;
+    border-radius: 40px;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: red;
+  position: relative;
+}
+
+.topnav #myLinks {
+  display: none;
+}
+
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+.topnav a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.topnav a:hover {
+  background-color: black;
+  color: red;
+}
+
+span {
+    color: red;
+}
+.round {
+    border-radius: 50px;
+}
+p {
+    font-size: 30px;
+    font-family: caveat, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+footer {
+    background-color: black;
+    color: red;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: black;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: red;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: white;
+}
+hr {
+    color: red;
+}
+.logo {
+    float: left;
+    border-radius: 100px;
+}
+.fplogo {
+    border-radius: 100px;
+    margin-top: 140px;
+    
+}
+video {
+  border: red 1px solid;
+}
